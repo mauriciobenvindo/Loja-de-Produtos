@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Loja de Produtos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Loja de Produtos</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Produtos</h2>
+            <span>Lista de nossos produtos:</span>
+        </div>
+
+        <div id="card">
+            <div class="input-produtcs">
+                <label>Produto</label>
+                <input type="text" id="name" placeholder="Nome do Produto">
+            </div>
+
+            <div class="input-produtcs">
+                <label>Valor</label>
+                <input type="number" id="price" placeholder="Valor do Produto">
+            </div>
+
+            <button class="button-produtcs" id="btn" onclick="produtcs.save()">Salvar</button>
+            <button class="button-produtcs" onclick="produtcs.cancel()">Cancelar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th class="center">Acções</th>
+                </thead>
+
+                <tbody id="tbody">
+
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <span>Created by
+            <a href="https://www.linkedin.com/in/mauriciobenvindo/">Maurício Benvindo</a>
+        </span>
+    </footer>
+</body>
+</html>

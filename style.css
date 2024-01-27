@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #00b3ff;
+}
+
+header{
+    background-color: #00b3ff;
+    padding: 10px;
+    text-align: center;
+    color: #fafbfc;
+}
+
+main{
+    background-color: #f0f1f1;
+    padding: 30px 50px;
+}
+
+#card{
+    background-color: #fafeff;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.input-produtcs{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    outline: 0;
+    transition: 0.5s;
+}
+input:hover{
+    background-color: #00b3ff76;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.button-produtcs{
+    background-color: #00b3ff;
+    border: solid 1px #fff;
+    border-radius: 6px;
+    color: #ededed;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+.button-produtcs:hover{
+    background-color: #00b3ff00;
+    border: solid 1px #00b3ff;
+    color: #00b3ff;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse;
+    border:solid 1px #ccc ;
+    width: 100%;
+}
+thead th{
+    background-color: #d6d6d6;
+    color: #00b3ff;
+}
+table td{
+    color: #78bbff;
+}
+tbody:hover{
+    background-color: #e7e5e5;
+}
+table th , td{
+    padding: 1px 2px;
+    text-align: left;
+    transition: 0.5s;
+}
+tbody td img{
+    width: 24px;
+    padding: 5px 4px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+footer{
+    background-color: #00b3ff;
+    color:#fafbfc;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+footer span{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fafbfc;
+}
